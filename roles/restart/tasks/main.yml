@@ -1,0 +1,4 @@
+- name: test vars
+  debug: var=ansible_default_ipv4.address
+- name: begin
+  debug: task
